@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Questões</title>
+</head>
+<body>
+    <h1>Jogo de Perguntas</h1>
+  
+  <div class="question">
+    <p>1. Qual é a capital do Brasil?</p>
+    <ul class="options">
+      <li><input type="radio" name="q1" value="a"> a) São Paulo</li>
+      <li><input type="radio" name="q1" value="b"> b) Rio de Janeiro</li>
+      <li><input type="radio" name="q1" value="c"> c) Brasília</li>
+    </ul>
+  </div>
+  
+  <div class="question">
+    <p>2. Qual é a maior ilha do mundo?</p>
+    <ul class="options">
+      <li><input type="radio" name="q2" value="a"> a) Groenlândia</li>
+      <li><input type="radio" name="q2" value="b"> b) Austrália</li>
+      <li><input type="radio" name="q2" value="c"> c) Madagascar</li>
+    </ul>
+  </div>
+  
+  <div class="question">
+    <p>3. Quem pintou a Mona Lisa?</p>
+    <ul class="options">
+      <li><input type="radio" name="q3" value="a"> a) Leonardo da Vinci</li>
+      <li><input type="radio" name="q3" value="b"> b) Pablo Picasso</li>
+      <li><input type="radio" name="q3" value="c"> c) Vincent van Gogh</li>
+    </ul>
+  </div>
+  
+  <button onclick="checkAnswers()">Verificar Respostas</button>
+  
+  <div class="result" id="result"></div>
+</body>
+</html>
+
